@@ -1,0 +1,82 @@
+/*
+Tags: white, bootstrap, three-columns
+*/
+
+body {
+    background: #000;
+    color: #ccc;
+}
+
+hr {
+    border-color: #333;
+}
+
+.well {
+    background: #666;
+}
+
+.alert {
+    font-weight: bold;
+    text-align: center;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+/* Solvemedia captcha fix. */
+#adcopy-outer {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+#reward-list {
+    text-align: center;
+    list-style: none;
+}
+
+#reward-list .percentage {
+    font-size: 80%;
+    color: #666;
+}
+
+#faucet-label {
+    font-size: 130%;
+}
+
+.night-hotel {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 20px;
+  border: none;
+  font: normal normal normal 60px/1 "Monoton", Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  text-shadow: 0 0 10px rgb(255,255,255) , 0 0 20px rgb(255,255,255) , 0 0 30px rgb(255,255,255) , 0 0 40px rgb(255,17,119) , 0 0 70px rgb(255,17,119) , 0 0 80px rgb(255,17,119) , 0 0 100px rgb(255,17,119) , 0 0 150px rgb(255,17,119) ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+}
+
+.night-hotel:hover {
+  text-shadow: 0 0 5px rgb(255,255,255) , 0 0 10px rgb(255,255,255) , 0 0 15px rgb(255,255,255) , 0 0 20px rgb(255,17,119) , 0 0 35px rgb(255,17,119) , 0 0 40px rgb(255,17,119) , 0 0 50px rgb(255,17,119) , 0 0 75px rgb(255,17,119) ;
+}
+
+.btn-success, .btn-success:hover {
+    background: #33ff14;
+}
+
+.alert-danger {
+    background: #ff69b4;
+    color: #fff;
+}
+
+.alert-info, .alert-primary {
+    background: #09b0ce;
+    color: #fff;
+}

@@ -1,0 +1,71 @@
+body {
+    color: #fff;
+    background: #02b8d8;
+    font-family: Helvetica, sans-serif;
+}
+
+a {
+    color: #000;
+    text-decoration: underline;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+h5 {
+    font-weight: bold;
+}
+
+.alert {
+    font-weight: bold;
+    color: #fff;
+    border: 0;
+    text-align: center;
+    background: #0199D9;
+}
+
+.well {
+    color: #000;
+    border: 0;
+    background: #fff;
+}
+
+.btn-success, .btn-success:hover {
+    box-shadow: 3px 3px 0 #00FF00 , 4px 4px 0 #00FF00 , 5px 5px 0 #00FF00 , 6px 6px 0 #00FF00;
+    background: #7FFF2A;
+    border: 0;
+    color: #000;
+}
+
+.btn-success:hover {
+    background: #AAFF55;
+}
+
+.alert-danger {
+    background: #FF7F7F;
+}
+
+#reward-list {
+    text-align: center;
+    list-style: none;
+}
+
+#reward-list .percentage {
+    font-size: 80%;
+    opacity: 0.6;
+}
+
+#faucet-label {
+    font-size: 130%;
+}
+
+.long-shadow {
+    color: #fff;
+    padding: 25px;
+    font: normal normal normal 60px/1 "Fredoka One", Helvetica, sans-serif;
+    text-shadow: 3px 3px 0 #0199d9 , 4px 4px 0 #0199d9 , 5px 5px 0 #0199d9 , 6px 6px 0 #0199d9 , 7px 7px 0 #0199d9 , 8px 8px 0 #0199d9 , 9px 9px 0 #0199d9 , 10px 10px 0 #0199d9 , 11px 11px 0 #0199d9 , 12px 12px 0 #0199d9 , 13px 13px 0 #0199d9 , 14px 14px 0 #0199d9 , 15px 15px 0 #0199d9 , 16px 16px 0 #0199d9 , 17px 17px 0 #0199d9 , 18px 18px 0 #0199d9 , 19px 19px 0 #0199d9 , 20px 20px 0 #0199d9 ;
+}

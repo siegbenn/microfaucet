@@ -1,0 +1,159 @@
+﻿/*
+Theme name: Red
+Author: Alexey S. <nilsonleow@gmail.com>
+Website: http://www.faucettheme.com
+Type: paid, 1%, 18hof7baRKmdBAYYZ9otVtYY6XEsuxmtZq, RUp2490SPk5x84gr
+*/
+
+
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
+
+html {
+        background: url(images/bg.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-color:#000;
+}
+body {
+	margin:0;
+	padding:0;
+	font-family: 'Roboto Condensed', sans-serif;
+	color:#fff;
+}
+form {
+	width:95%;
+	margin:0 auto;
+	text-align:center;
+}
+a {
+	color:#fff;
+	text-decoration:underline;
+}
+a:hover {
+	text-decoration:none;
+}
+h1 {
+	display:inline;
+}
+h4 {
+	font-size:14px;
+	font-weight:normal;
+}
+p {
+	font-size:14px;
+	font-weight:normal;
+}
+#main {
+	width:100%;
+}
+#container {
+	position:relative;
+	top:110px;
+	left:15%;
+	width:500px;
+	min-height:500px;
+	max-height:800px;
+}
+#container h1 {
+	margin:0px;
+	padding:0px;
+}
+#container h4 {
+	margin:5px;
+	padding:5px;
+}
+#top-block {
+	width:1000px;
+	margin:0 auto;
+	padding:10px;
+}
+#bottom {
+	position:relative;
+	top:200px;
+	margin:0 auto;
+}
+#clear {
+	clear:both;
+}
+
+/* Classes */
+.text-center {
+	text-align:center;
+}
+
+/* Form */
+
+.input-lg {
+	width:400px;
+	height:35px;
+	background: #900000;
+	background: -webkit-linear-gradient(#720000, #900000);
+	background: -moz-linear-gradient(#720000, #900000);
+	background: -o-linear-gradient(#720000, #900000);
+	background: -ms-linear-gradient(#720000, #900000);
+	background: linear-gradient(#720000, #900000);
+	border:1px solid #360000;
+	margin:5px;
+	padding:5px;
+	border-radius:5px;
+	color:#fff;
+}
+.input-lg:hover {
+	width:400px;
+	height:35px;
+	background: #900000;
+	background: -webkit-linear-gradient(#900000, #720000);
+	background: -moz-linear-gradient(#900000, #720000);
+	background: -o-linear-gradient(#900000, #720000);
+	background: -ms-linear-gradient(#900000, #720000);
+	background: linear-gradient(#900000, #720000);
+	border:1px solid #360000;
+	margin:5px;
+	border-radius:5px;
+	color:#fff;
+}
+
+/* Alerts */
+
+.alert {
+	width:400px;
+	text-align: center;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius:5px;
+	border-radius: 5px;
+	background-color: #fff;
+	margin:0 auto;
+
+}
+
+.alert-danger {
+	border: 1px solid;
+	color: #D8000C;
+	padding:15px 10px 15px 10px;
+	font-weight: bold;
+}
+
+.alert-success {
+	border: 1px solid;
+	padding:15px 10px 15px 10px;
+	color: #4F8A10;
+	font-weight: bold;
+}
+
+.alert-success a{
+	color:green;
+}
+
+.alert-success a:hover{
+	color:#537c06;
+}
+
+.alert-info {
+	border: 1px solid;
+	padding:15px 10px 15px 10px;
+	color: #003300;
+	font-weight: bold;
+}

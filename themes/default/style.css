@@ -1,0 +1,32 @@
+/*
+Tags: white, bootstrap, three-columns
+*/
+.alert {
+    font-weight: bold;
+    text-align: center;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+/* Solvemedia captcha fix. */
+#adcopy-outer {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+#reward-list {
+    text-align: center;
+    list-style: none;
+}
+
+#reward-list .percentage {
+    font-size: 80%;
+    color: #666;
+}
+
+#faucet-label {
+    font-size: 130%;
+}

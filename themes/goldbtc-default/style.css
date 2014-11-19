@@ -1,0 +1,194 @@
+﻿/*
+Theme name: Gold BTC
+Author: Alexey S. <nilsonleow@gmail.com>
+Website: http://www.faucettheme.com
+Type: paid, 7%, 18hof7baRKmdBAYYZ9otVtYY6XEsuxmtZq, RUp2490SPk5x84gr
+*/
+
+
+body {
+	margin:0;
+	padding:0;
+	background:#222;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color:#ccc;
+}
+h4 {
+	margin:0px;
+}
+a {
+	color:#fff;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+li {
+	list-style:none;
+}
+#header-wrappew {
+	width:1000px;
+	height:75px;
+	margin:0 auto;
+	margin-top:20px;
+	background: #f39501;
+	background: -webkit-linear-gradient(#f2b303, #ef7301);
+	background: -moz-linear-gradient(#f2b303, #ef7301);
+	background: -o-linear-gradient(#f2b303, #ef7301);
+	background: -ms-linear-gradient(#f2b303, #ef7301);
+	background: linear-gradient(#f2b303, #ef7301);
+	border:1px solid orange;
+	border-radius:10px;
+}
+#header-name {
+	width:300px;
+	height:35px;
+	position:relative;
+	top:20px;
+	left:-1px;
+	float:left;
+	background: #424242;
+	background: -webkit-linear-gradient(#5f5f5f, #424242);
+	background: -moz-linear-gradient(#5f5f5f, #424242);
+	background: -o-linear-gradient(#5f5f5f, #424242);
+	background: -ms-linear-gradient(#5f5f5f, #424242);
+	background: linear-gradient(#5f5f5f, #424242);
+	border:1px solid #333;
+	border-radius:0 12px 12px 0;
+
+}
+#header-name p {
+	font-size:25px;
+	font-weight:600;
+	color:#fff;
+	margin:2px 0 0 15px;
+}
+#header-name a, #header-name a:hover {
+	color:#fff;
+	text-decoration:none;
+}
+#header-more {
+	width:500px;
+	height:35px;
+	position:relative;
+	top:20px;
+	right:-1px;
+	float:right;
+	background: #424242;
+	background: -webkit-linear-gradient(#5f5f5f, #424242);
+	background: -moz-linear-gradient(#5f5f5f, #424242);
+	background: -o-linear-gradient(#5f5f5f, #424242);
+	background: -ms-linear-gradient(#5f5f5f, #424242);
+	background: linear-gradient(#5f5f5f, #424242);
+	border:1px solid #333;
+	border-radius:12px 0 0 12px;
+}
+#header-more p {
+	color:#fff;
+	margin:7px 15px 0 0;
+	text-align:right;
+}
+#main-wrapper {
+	width:1000px;
+	margin:0 auto;
+}
+#main-left {
+	width:640px;
+	min-height:600px;
+	margin:15px 8px 0 0;
+	border:1px solid #ccc;
+	border-radius:10px;
+	float:left;
+	background:url(img/bg.jpg) center top no-repeat #151515;
+}
+#main-right {
+	width:340px;
+	min-height:600px;
+	float:left;
+	margin:15px 0 0 8px;
+}
+#main-right-inner {
+	width:100%;
+	min-height:100px;
+	border:1px solid #ccc;
+	border-radius:10px;
+	margin-bottom:10px;
+}
+#main-right-inner-block {
+	width:235px;
+	margin:5px 5px 5px 105px;
+}
+#main-full-wrapper {
+	width:1000px;
+	min-height:100px;
+	margin:0 auto;
+	margin-top:10px;
+	border:1px solid #ccc;
+	border-radius:10px;
+	background:#151515;
+}
+#main-full-inner {
+	width:980px;
+	margin:5px 10px 5px 10px;
+}
+#footer-wrapper {
+	width:1000px;
+	min-height:180px;
+	margin:0 auto;
+	background:#333;
+	border-radius:0 0 10px 10px;
+}
+#footer-split {
+	width:100%;
+	height:20px;
+	background:#222;	
+	border-radius:0 0 10px 10px;	
+}
+#footer-inner {
+	width:100%;
+	min-height:150px;
+	background:url(img/bitcoin.png) left top no-repeat;
+}
+#footer-inner-block {
+	width:850px;
+	margin:5px 5px 5px 145px;
+}
+#copy {
+	width:1000px;
+	margin:0 auto;
+	min-height:25px;
+	text-align:right;
+	font-size:13px;
+}
+#clear {
+	clear:both;
+}
+#faucet-label {
+	font-weight:600;
+	margin-top:10px;
+}
+
+/* Classes */
+
+.btc {
+	background:url(img/btc.png) top left no-repeat #151515;
+}
+.earn {
+	background:url(img/earn.png) top left no-repeat #151515;
+}
+.links {
+	background:url(img/link.png) top left no-repeat #151515;
+}
+.stat {
+	background:url(img/stat.png) top left no-repeat #151515;
+}
+
+.block {
+	background:#151515;
+}
+.balance {
+	margin:15px 0 0 40px;
+}
+.stats {
+	margin:15px 0 0 40px;
+}
